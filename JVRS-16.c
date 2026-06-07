@@ -5,32 +5,23 @@ int main() {
 
 printf("*********************************************\n");
 printf("*JEAN VINICIO RODOVALHO SOARES - 0024931    *\n");
-printf("Programa JVRS-16 - Múltiplo de 3 e/ou 5      *\n");
+printf("Programa JVRS-17 O Sensor do Parque Temático*\n");
 printf("*********************************************\n");
 
-int pedido;
 
-printf("Digite  numero do seu pedido: ");
-scanf("%d", &pedido);
+int altura;
 
+printf("Digite a altura do usuário: ");
+scanf("%d", &altura);
 
-if (pedido%3 == 0 && pedido%5 == 0){
-	printf("Voce ganhou um refrigerante e uma sobremesa de brinde");
-}
-
-else if (pedido%3 == 0){
-	printf("Voce ganhou um refrigerante");
+if (altura>140){
+	printf("ACENDA LUZ VERDE");
 
 }
-
-else if (pedido%5 == 0){
-	printf("Voce ganhou uma sobremesa");
-}
-
 else {
-	printf("Seu pedido nao foi premiado");
-
+	printf("ACENDA LUZ VERMELHA");
 }
 
+return 0;
 }
 
