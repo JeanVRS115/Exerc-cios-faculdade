@@ -10,22 +10,9 @@ int main() {
     printf("Programa JVRS-30 Fatorial de um número         *\n");
     printf("************************************************\n");
 
-    int numero, i;
-    int fatorial = 1;
-
-    printf("Digite um numero: ");
-    scanf("%d", &numero);
-
-    if(numero < 0){
-        printf("Nao existe fatorial de numero negativo");
-    }
-    else{
-        for(i = 1; i <= numero; i++){
-            fatorial = fatorial * i;
-        }
-
-        printf("Fatorial de %d é %d", numero, fatorial);
-    }
-
+    int numero;
+    
+    
+    
     return 0;
 }
